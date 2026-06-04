@@ -1,85 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Trang web portfolio cá nhân hiện đại và chuyên nghiệp - Lập trình viên Web & UI/UX Designer">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Trang web portfolio cá nhân hiện đại và chuyên nghiệp - Lập trình viên Web & UI/UX Designer"
+    />
     <title>Alex Nguyen | Modern Portfolio</title>
-    
+
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- FontAwesome Icons for modern visuals (via CDN) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
     <!-- Custom Style Sheet -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="dark-theme">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dark-theme">
     <!-- Background Glow Blobs for premium aesthetic -->
     <div class="blobblob blob-1"></div>
     <div class="blobblob blob-2"></div>
 
     <!-- Header / Navigation -->
     <header id="header">
-        <div class="nav-container">
-            <a href="#" class="logo">
-                <span class="logo-accent">Alex</span>.dev
-            </a>
-            <nav class="navbar" id="navbar">
-                <a href="#home" class="nav-link active">Trang Chủ</a>
-                <a href="#about" class="nav-link">Giới Thiệu</a>
-                <a href="#projects" class="nav-link">Dự Án</a>
-                <a href="#contact" class="nav-link">Liên Hệ</a>
-            </nav>
-            <div class="nav-actions">
-                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
-                    <i class="fa-solid fa-moon"></i>
-                </button>
-                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </div>
+      <div class="nav-container">
+        <a href="#" class="logo"> <span class="logo-accent">Alex</span>.dev </a>
+        <nav class="navbar" id="navbar">
+          <a href="#home" class="nav-link active">Trang Chủ</a>
+          <a href="#about" class="nav-link">Giới Thiệu</a>
+          <a href="#projects" class="nav-link">Dự Án</a>
+          <a href="#contact" class="nav-link">Liên Hệ</a>
+        </nav>
+        <div class="nav-actions">
+          <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button
+            class="mobile-toggle"
+            id="mobile-toggle"
+            aria-label="Toggle Menu"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
         </div>
+      </div>
     </header>
 
     <!-- Main Container -->
     <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero-section">
-            <div class="container hero-grid">
-                <div class="hero-content">
-                    <span class="hero-subtitle">Xin chào! Mình là</span>
-                    <h1 class="hero-title">Alex Nguyễn</h1>
-                    <h2 class="hero-typing-container">
-                        Một <span id="typing-text" class="gradient-text"></span><span class="typed-cursor">|</span>
-                    </h2>
-                    <p class="hero-desc">
-                        Chuyên thiết kế và phát triển các sản phẩm web hiện đại, có tính tương tác cao và trải nghiệm người dùng tối ưu.
-                    </p>
-                    <div class="hero-actions">
-                        <a href="#projects" class="btn btn-primary">
-                            Xem Dự Án <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="#contact" class="btn btn-secondary">
-                            Liên Hệ Ngay
-                        </a>
-                    </div>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-grid container">
+          <div class="hero-content">
+            <span class="hero-subtitle">Xin chào! Mình là</span>
+            <h1 class="hero-title">Sang Lê</h1>
+            <h2 class="hero-typing-container">
+              Một <span id="typing-text" class="gradient-text"></span
+              ><span class="typed-cursor">|</span>
+            </h2>
+            <p class="hero-desc">
+              Chuyên thiết kế và phát triển các sản phẩm web hiện đại, có tính
+              tương tác cao và trải nghiệm người dùng tối ưu.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                Xem Dự Án <i class="fa-arrow-right fa-solid"></i>
+              </a>
+              <a href="#contact" class="btn btn-secondary"> Liên Hệ Ngay </a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="visual-wrapper">
+              <div class="gradient-orb"></div>
+              <div class="visual-card glass-card">
+                <div class="card-header">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                  <span class="card-title">index.js</span>
                 </div>
-                <div class="hero-visual">
-                    <div class="visual-wrapper">
-                        <div class="gradient-orb"></div>
-                        <div class="visual-card glass-card">
-                            <div class="card-header">
-                                <span class="dot red"></span>
-                                <span class="dot yellow"></span>
-                                <span class="dot green"></span>
-                                <span class="card-title">index.js</span>
-                            </div>
-                            <div class="card-body">
-                                <pre><code><span class="keyword">const</span> developer = {
+                <div class="card-body">
+                  <pre><code><span class="keyword">const</span> developer = {
   name: <span class="string">'Alex Nguyen'</span>,
   skills: [<span class="string">'HTML'</span>, <span class="string">'CSS'</span>, <span class="string">'JavaScript'</span>],
   passionate: <span class="keyword">true</span>,
@@ -88,272 +99,361 @@
 
 <span class="comment">// Đưa ý tưởng của bạn thành hiện thực</span>
 developer.buildAmazingThings();</code></pre>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- About Section -->
-        <section id="about" class="about-section scroll-reveal">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-subtitle">Thông Tin</span>
-                    <h2 class="section-title">Về Bản Thân</h2>
-                    <div class="section-underline"></div>
+      <!-- About Section -->
+      <section id="about" class="scroll-reveal about-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">Thông Tin</span>
+            <h2 class="section-title">Về Bản Thân</h2>
+            <div class="section-underline"></div>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-info">
+              <h3>Đam mê sáng tạo và tối ưu mã nguồn</h3>
+              <p>
+                Với hơn 3 năm học tập và làm việc trong lĩnh vực phát triển web,
+                mình luôn tập trung vào việc tạo ra giao diện người dùng trực
+                quan, mượt mà và cấu trúc mã nguồn tối ưu nhất.
+              </p>
+              <p>
+                Mình tin rằng một sản phẩm tốt không chỉ hoạt động tốt ở backend
+                mà còn phải mang lại cảm giác thích thú cho người dùng khi tương
+                tác ở frontend.
+              </p>
+
+              <div class="personal-details">
+                <div class="detail-item">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Hà Nội, Việt Nam</span>
                 </div>
-                
-                <div class="about-grid">
-                    <div class="about-info">
-                        <h3>Đam mê sáng tạo và tối ưu mã nguồn</h3>
-                        <p>Với hơn 3 năm học tập và làm việc trong lĩnh vực phát triển web, mình luôn tập trung vào việc tạo ra giao diện người dùng trực quan, mượt mà và cấu trúc mã nguồn tối ưu nhất.</p>
-                        <p>Mình tin rằng một sản phẩm tốt không chỉ hoạt động tốt ở backend mà còn phải mang lại cảm giác thích thú cho người dùng khi tương tác ở frontend.</p>
-                        
-                        <div class="personal-details">
-                            <div class="detail-item">
-                                <i class="fa-solid fa-location-dot"></i>
-                                <span>Hà Nội, Việt Nam</span>
-                            </div>
-                            <div class="detail-item">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                                <span>Công nghệ thông tin</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="about-skills">
-                        <h3>Kỹ năng cốt lõi</h3>
-                        <div class="skills-container">
-                            <div class="skill-item">
-                                <div class="skill-info">
-                                    <span>HTML5 / CSS3</span>
-                                    <span>95%</span>
-                                </div>
-                                <div class="skill-bar-bg">
-                                    <div class="skill-bar-fill" style="width: 95%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-info">
-                                    <span>JavaScript (ES6+)</span>
-                                    <span>90%</span>
-                                </div>
-                                <div class="skill-bar-bg">
-                                    <div class="skill-bar-fill" style="width: 90%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-info">
-                                    <span>Responsive Web Design</span>
-                                    <span>88%</span>
-                                </div>
-                                <div class="skill-bar-bg">
-                                    <div class="skill-bar-fill" style="width: 88%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-info">
-                                    <span>UI/UX & Glassmorphism</span>
-                                    <span>85%</span>
-                                </div>
-                                <div class="skill-bar-bg">
-                                    <div class="skill-bar-fill" style="width: 85%;"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="detail-item">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span>Công nghệ thông tin</span>
                 </div>
+              </div>
             </div>
-        </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects-section scroll-reveal">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-subtitle">Sản Phẩm</span>
-                    <h2 class="section-title">Dự Án Nổi Bật</h2>
-                    <div class="section-underline"></div>
+            <div class="about-skills">
+              <h3>Kỹ năng cốt lõi</h3>
+              <div class="skills-container">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span>HTML5 / CSS3</span>
+                    <span>95%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 95%"></div>
+                  </div>
                 </div>
-
-                <!-- Filters -->
-                <div class="filter-wrapper">
-                    <button class="filter-btn active" data-filter="all">Tất Cả</button>
-                    <button class="filter-btn" data-filter="web">Web Development</button>
-                    <button class="filter-btn" data-filter="design">UI/UX Design</button>
-                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span>JavaScript (ES6+)</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 90%"></div>
+                  </div>
                 </div>
-
-                <!-- Projects Grid -->
-                <div class="projects-grid">
-                    <!-- Project 1 -->
-                    <div class="project-card glass-card" data-category="web">
-                        <div class="project-img-wrapper">
-                            <div class="project-img-placeholder gradient-1">
-                                <i class="fa-solid fa-code"></i>
-                            </div>
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="#" class="project-link-btn" aria-label="Xem Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                    <a href="#" class="project-link-btn" aria-label="Xem Code"><i class="fa-brands fa-github"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <span class="project-tag">Web App</span>
-                            <h3 class="project-title">E-Commerce dashboard</h3>
-                            <p class="project-desc">Trang quản trị bán hàng hiện đại với biểu đồ thống kê trực quan và bộ lọc dữ liệu thông minh.</p>
-                        </div>
-                    </div>
-
-                    <!-- Project 2 -->
-                    <div class="project-card glass-card" data-category="design">
-                        <div class="project-img-wrapper">
-                            <div class="project-img-placeholder gradient-2">
-                                <i class="fa-solid fa-wand-magic-sparkles"></i>
-                            </div>
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="#" class="project-link-btn" aria-label="Xem Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                    <a href="#" class="project-link-btn" aria-label="Xem Figma"><i class="fa-brands fa-figma"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <span class="project-tag">UI/UX Design</span>
-                            <h3 class="project-title">Coffee Shop Concept</h3>
-                            <p class="project-desc">Thiết kế ứng dụng gọi cà phê với giao diện tối giản, tập trung vào trải nghiệm mượt mà.</p>
-                        </div>
-                    </div>
-
-                    <!-- Project 3 -->
-                    <div class="project-card glass-card" data-category="web">
-                        <div class="project-img-wrapper">
-                            <div class="project-img-placeholder gradient-3">
-                                <i class="fa-solid fa-cloud-sun"></i>
-                            </div>
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="#" class="project-link-btn" aria-label="Xem Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                    <a href="#" class="project-link-btn" aria-label="Xem Code"><i class="fa-brands fa-github"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <span class="project-tag">Web Dev</span>
-                            <h3 class="project-title">Weather Interactive Map</h3>
-                            <p class="project-desc">Dự báo thời tiết thời gian thực hiển thị trực quan bằng bản đồ nhiệt độ động.</p>
-                        </div>
-                    </div>
-
-                    <!-- Project 4 -->
-                    <div class="project-card glass-card" data-category="mobile">
-                        <div class="project-img-wrapper">
-                            <div class="project-img-placeholder gradient-4">
-                                <i class="fa-solid fa-mobile-screen-button"></i>
-                            </div>
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="#" class="project-link-btn" aria-label="Xem Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                    <a href="#" class="project-link-btn" aria-label="Xem Code"><i class="fa-brands fa-github"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <span class="project-tag">Mobile App</span>
-                            <h3 class="project-title">Task Management Native</h3>
-                            <p class="project-desc">Ứng dụng quản lý công việc hàng ngày, hỗ trợ nhắc nhở thông minh và đồng bộ đám mây.</p>
-                        </div>
-                    </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span>Responsive Web Design</span>
+                    <span>88%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 88%"></div>
+                  </div>
                 </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span>UI/UX & Glassmorphism</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact-section scroll-reveal">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-subtitle">Hợp Tác</span>
-                    <h2 class="section-title">Liên Hệ Với Mình</h2>
-                    <div class="section-underline"></div>
+      <!-- Projects Section -->
+      <section id="projects" class="scroll-reveal projects-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">Sản Phẩm</span>
+            <h2 class="section-title">Dự Án Nổi Bật</h2>
+            <div class="section-underline"></div>
+          </div>
+
+          <!-- Filters -->
+          <div class="filter-wrapper">
+            <button class="filter-btn active" data-filter="all">Tất Cả</button>
+            <button class="filter-btn" data-filter="web">
+              Web Development
+            </button>
+            <button class="filter-btn" data-filter="design">
+              UI/UX Design
+            </button>
+            <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+          </div>
+
+          <!-- Projects Grid -->
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-card" data-category="web">
+              <div class="project-img-wrapper">
+                <div class="project-img-placeholder gradient-1">
+                  <i class="fa-solid fa-code"></i>
                 </div>
-
-                <div class="contact-grid">
-                    <div class="contact-card glass-card">
-                        <h3>Hãy nói về dự án của bạn!</h3>
-                        <p>Mình luôn sẵn sàng thảo luận về các cơ hội hợp tác, dự án mới hoặc đơn giản là trao đổi về công nghệ.</p>
-                        
-                        <div class="contact-details">
-                            <div class="contact-detail-item">
-                                <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
-                                <div>
-                                    <span class="detail-label">Email cho mình</span>
-                                    <a href="mailto:alexnguyen@example.com" class="detail-value">alexnguyen@example.com</a>
-                                </div>
-                            </div>
-                            <div class="contact-detail-item">
-                                <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
-                                <div>
-                                    <span class="detail-label">Số điện thoại</span>
-                                    <a href="tel:+84123456789" class="detail-value">+84 (0) 123 456 789</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="social-links">
-                            <a href="#" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="contact-form-wrapper glass-card">
-                        <form id="contact-form" class="contact-form">
-                            <div class="form-group">
-                                <label for="name">Họ và Tên</label>
-                                <input type="text" id="name" name="name" placeholder="Ví dụ: Nguyễn Văn A" required>
-                                <span class="error-msg" id="name-error">Tên không được để trống</span>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="email">Địa chỉ Email</label>
-                                <input type="email" id="email" name="email" placeholder="email@gmail.com" required>
-                                <span class="error-msg" id="email-error">Vui lòng nhập email hợp lệ</span>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="message">Lời nhắn của bạn</label>
-                                <textarea id="message" name="message" rows="5" placeholder="Chào Alex, mình muốn trao đổi về..." required></textarea>
-                                <span class="error-msg" id="message-error">Vui lòng nhập nội dung tin nhắn</span>
-                            </div>
-                            
-                            <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
-                                Gửi Tin Nhắn <i class="fa-solid fa-paper-plane"></i>
-                            </button>
-                        </form>
-                    </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link-btn" aria-label="Xem Demo"
+                      ><i class="fa-arrow-up-right-from-square fa-solid"></i
+                    ></a>
+                    <a href="#" class="project-link-btn" aria-label="Xem Code"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                  </div>
                 </div>
+              </div>
+              <div class="project-info">
+                <span class="project-tag">Web App</span>
+                <h3 class="project-title">E-Commerce dashboard</h3>
+                <p class="project-desc">
+                  Trang quản trị bán hàng hiện đại với biểu đồ thống kê trực
+                  quan và bộ lọc dữ liệu thông minh.
+                </p>
+              </div>
             </div>
-        </section>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-card" data-category="design">
+              <div class="project-img-wrapper">
+                <div class="project-img-placeholder gradient-2">
+                  <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link-btn" aria-label="Xem Demo"
+                      ><i class="fa-arrow-up-right-from-square fa-solid"></i
+                    ></a>
+                    <a href="#" class="project-link-btn" aria-label="Xem Figma"
+                      ><i class="fa-brands fa-figma"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <span class="project-tag">UI/UX Design</span>
+                <h3 class="project-title">Coffee Shop Concept</h3>
+                <p class="project-desc">
+                  Thiết kế ứng dụng gọi cà phê với giao diện tối giản, tập trung
+                  vào trải nghiệm mượt mà.
+                </p>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card glass-card" data-category="web">
+              <div class="project-img-wrapper">
+                <div class="project-img-placeholder gradient-3">
+                  <i class="fa-solid fa-cloud-sun"></i>
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link-btn" aria-label="Xem Demo"
+                      ><i class="fa-arrow-up-right-from-square fa-solid"></i
+                    ></a>
+                    <a href="#" class="project-link-btn" aria-label="Xem Code"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <span class="project-tag">Web Dev</span>
+                <h3 class="project-title">Weather Interactive Map</h3>
+                <p class="project-desc">
+                  Dự báo thời tiết thời gian thực hiển thị trực quan bằng bản đồ
+                  nhiệt độ động.
+                </p>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card glass-card" data-category="mobile">
+              <div class="project-img-wrapper">
+                <div class="project-img-placeholder gradient-4">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link-btn" aria-label="Xem Demo"
+                      ><i class="fa-arrow-up-right-from-square fa-solid"></i
+                    ></a>
+                    <a href="#" class="project-link-btn" aria-label="Xem Code"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <span class="project-tag">Mobile App</span>
+                <h3 class="project-title">Task Management Native</h3>
+                <p class="project-desc">
+                  Ứng dụng quản lý công việc hàng ngày, hỗ trợ nhắc nhở thông
+                  minh và đồng bộ đám mây.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="scroll-reveal contact-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">Hợp Tác</span>
+            <h2 class="section-title">Liên Hệ Với Mình</h2>
+            <div class="section-underline"></div>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-card glass-card">
+              <h3>Hãy nói về dự án của bạn!</h3>
+              <p>
+                Mình luôn sẵn sàng thảo luận về các cơ hội hợp tác, dự án mới
+                hoặc đơn giản là trao đổi về công nghệ.
+              </p>
+
+              <div class="contact-details">
+                <div class="contact-detail-item">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div>
+                    <span class="detail-label">Email cho mình</span>
+                    <a href="mailto:alexnguyen@example.com" class="detail-value"
+                      >alexnguyen@example.com</a
+                    >
+                  </div>
+                </div>
+                <div class="contact-detail-item">
+                  <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                  <div>
+                    <span class="detail-label">Số điện thoại</span>
+                    <a href="tel:+84123456789" class="detail-value"
+                      >+84 (0) 123 456 789</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a href="#" class="social-icon" aria-label="GitHub"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a href="#" class="social-icon" aria-label="LinkedIn"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a href="#" class="social-icon" aria-label="Facebook"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="contact-form-wrapper glass-card">
+              <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Họ và Tên</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Ví dụ: Nguyễn Văn A"
+                    required
+                  />
+                  <span class="error-msg" id="name-error"
+                    >Tên không được để trống</span
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Địa chỉ Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="email@gmail.com"
+                    required
+                  />
+                  <span class="error-msg" id="email-error"
+                    >Vui lòng nhập email hợp lệ</span
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Lời nhắn của bạn</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Chào Alex, mình muốn trao đổi về..."
+                    required
+                  ></textarea>
+                  <span class="error-msg" id="message-error"
+                    >Vui lòng nhập nội dung tin nhắn</span
+                  >
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn-block btn btn-primary"
+                  id="submit-btn"
+                >
+                  Gửi Tin Nhắn <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <div class="container footer-content">
-            <p>&copy; 2026 Alex Nguyen. Tất cả quyền được bảo lưu.</p>
-            <p>Thiết kế bằng <i class="fa-solid fa-heart" style="color: #ff4b5c;"></i> và Vanilla CSS</p>
-        </div>
+      <div class="container footer-content">
+        <p>&copy; 2026 Alex Nguyen. Tất cả quyền được bảo lưu.</p>
+        <p>
+          Thiết kế bằng
+          <i class="fa-solid fa-heart" style="color: #ff4b5c"></i> và Vanilla
+          CSS
+        </p>
+      </div>
     </footer>
 
     <!-- Toast Notification Container -->
-    <div id="toast" class="toast hidden">
-        <div class="toast-content">
-            <i class="fa-solid fa-circle-check toast-icon"></i>
-            <span class="toast-message">Đã gửi tin nhắn thành công! Cảm ơn bạn.</span>
-        </div>
+    <div id="toast" class="hidden toast">
+      <div class="toast-content">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <span class="toast-message"
+          >Đã gửi tin nhắn thành công! Cảm ơn bạn.</span
+        >
+      </div>
     </div>
 
     <!-- Custom JavaScript -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
